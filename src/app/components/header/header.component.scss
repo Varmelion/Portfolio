@@ -1,0 +1,43 @@
+
+.row {
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    color: #607B96;
+    font-size: 1.3em;
+
+    &__nav {
+        width: 70%;
+        display: flex;
+        justify-content: flex-start;
+        nav {
+            height: 4em;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            a {
+                color: #607B96;
+            }
+        }
+    }
+
+ 
+}
+
+.first-row {
+    @extend .row;
+    width: 20%;
+    justify-content: flex-start;
+    padding-inline-start: 2em;
+}
+
+.last-row {
+    @extend .row;
+    width: 10%;
+}
