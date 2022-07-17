@@ -1,0 +1,19 @@
+.main-wrapper {
+    width: 100vw;
+    height: 100vh;
+    // background: #01080E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        width: 95%;
+        height: 95%;
+        // background: #011627;
+        background: #01223d;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 0.7em;
+    }
+}
